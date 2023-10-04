@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="./style.css">
+
+      <link rel="shortcut icon" href="./Assets/images/favicon/calculator.png" type="image/x-icon">
+
+      <meta name="author" content="Fhylipe Adan"/>
+      <meta name="description" content="###"/>
+
+      <script src="./calc.js" defer></script>
+
+      <title>IMC.Calc</title>
+   </head>
+
+   <body>
+    
+      <div class="container">
+         <div class="card">
+            <form action="">
+               <h1 class="tittle">Cálculo de IMC</h1>
+               
+               <div class="input-wrapper">
+                  <label for="weight">Peso (kg)</label>
+                  <input 
+                  type="text"
+                  id="weight"
+                  placeholder="60" />
+               </div>
+
+               <div class="input-wrapper">
+                  <label for="height">Altura (cm)</label>
+                  <input 
+                  type="text"
+                  id="height"
+                  placeholder="165" />
+               </div>
+
+               <button style="margin-top: 3.2rem;" type="submit">
+                  Calcular IMC
+                  <img src="./Assets/images/icons/arrow.svg" alt="seta para direita">
+                     
+               </button>
+            </form>
+         </div>
+      </div>
+
+      <div class="modal-wrapper">
+         <div class="modal card">
+            <h2 class="tittle">
+
+               <button class="close">
+                  <img src="./Assets/images/icons/close.svg" alt="">
+               </button>
+
+               Seu IMC é de 28!
+            </h2>
+         </div>
+      </div>
+      
+   </body>
+
+</html>
