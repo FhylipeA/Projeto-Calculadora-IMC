@@ -16,13 +16,23 @@
       <meta name="author" content="Fhylipe Adan"/>
       <meta name="description" content="###"/>
 
-      <script src="./calc.js" defer></script>
+      <script src="./js/calc.js" type="module" defer></script>
 
       <title>IMC.Calc</title>
    </head>
 
    <body>
-    
+
+      <!--AREA ALAERT ERROR-->
+
+         <div class="alert-error ">
+            Digite somente números!
+         </div>
+
+      <!--AREA DO CONTEUDO PRINCIPAL-->
+
+
+      <!--AREA DO CONTEUDO PRINCIPAL-->
       <div class="container">
          <div class="card">
             <form action="">
@@ -52,19 +62,24 @@
             </form>
          </div>
       </div>
+      <!--AREA DO CONTEUDO PRINCIPAL-->
 
+
+      <!--AREA DO MODAL-->
       <div class="modal-wrapper">
          <div class="modal card">
-            <h2 class="tittle">
+            <h2 class="title">
 
                <button class="close">
                   <img src="./Assets/images/icons/close.svg" alt="">
                </button>
 
-               Seu IMC é de 28!
+               <span>Seu IMC é de 28!</span>
             </h2>
          </div>
       </div>
+      <!--AREA DO MODAL-->
+
       
    </body>
 
